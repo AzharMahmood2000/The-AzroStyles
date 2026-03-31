@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Azro Styles - Signup</title>
+    <link rel="stylesheet" href="signup-style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lugrasimo&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Left Panel: Form -->
+        <div class="left-panel">
+            <header>
+                <h1 class="main-title">THE AZRO STYLES</h1>
+                <h2 class="sub-title">Create Account</h2>
+                <p class="description">Enter your details to join our curated community</p>
+            </header>
+
+            <form class="signup-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="contact">Contact Number</label>
+                    <input type="text" id="contact" placeholder="Enter your Contact Number">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your Email address">
+                </div>
+
+                <div class="form-group password-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your Password">
+                </div>
+
+                <button type="submit" class="signup-btn">Signup</button>
+            </form>
+
+            <div class="social-login">
+                <button class="social-btn">
+                    <img src="Images/google.png" alt="Google">
+                    Sign in with Google
+                </button>
+                <button class="social-btn">
+                    <img src="Images/Apple.png" alt="Apple">
+                    Sign in with Apple
+                </button>
+            </div>
+
+            <p class="footer-text">Don’t have account? <a href="#">Log in</a></p>
+        </div>
+
+        <!-- Right Panel: Image -->
+        <div class="right-panel">
+            <!-- Replace this URL with your actual image path -->
+            <img src="Images/signuprightpanel.png" alt="Retail Assistant">
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

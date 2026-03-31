@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-container {
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Left Panel Styling (698px wide) */
+.left-panel {
+    width: 698px;
+    padding: 60px 80px; /* Adjust padding for visual centering */
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    font-family: 'Lugrasimo', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 38px; /* Requirement: heading to create account gap */
+    text-transform: uppercase;
+}
+
+.sub-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0%;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 34px; /* Requirement: next gap is 34 */
+    margin-top: 0px;
+}
+
+/* Form Styles */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 18px; /* Requirement: filling boxes gap is 18 */
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-family: 'Inter', sans-serif; /* Substituted for Inter BT */
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-group input {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    max-width: 500px;
+    padding: 16px 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+.password-group {
+    margin-bottom: 38px; /* Requirement: password to signup btn gap is 38 */
+}
+
+.signup-btn {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700; /* Requirement: signup btn font bold */
+    cursor: pointer;
+    margin-bottom: 37px; /* Requirement: signup to social btn gap is 37 */
+    transition: background-color 0.2s;
+}
+
+.signup-btn:hover {
+    background-color: #333;
+}
+
+/* Social Buttons */
+.social-login {
+    display: flex;
+    gap: 23px; /* Requirement: social btn next one gap is 23 */
+    margin-bottom: 30px;
+}
+
+.social-btn {
+    flex: 1;
+    max-width: 238px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 23px;
+}
+
+.social-btn img {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+.footer-text a {
+    color: #4b2cc0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Right Panel Styling (742px wide) */
+.right-panel {
+    width: 742px;
+    height: 1024px;
+}
+
+.right-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Agro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&family=Podkova&family=Poppins:wght@400;500;700&family=Maiden+Orange&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contactus-style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <img src="Images/contactbackground.png" alt="Store interior" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Logo -->
+        <div class="logo">
+            <img src="Images/logo azro.png" alt="Agro Logo">
+        </div>
+
+        <!-- Navigation -->
+        <div class="nav-buttons">
+            <a href="#" class="nav-button">Home</a>
+            <a href="#" class="nav-button">Contact Us</a>
+        </div>
+
+        <!-- Profile Icon -->
+        <div class="profile-icon">
+           <img src="Images/profile2.png" alt="profile-icon">
+        </div>
+
+        <!-- Info Cards -->
+        <div class="info-cards">
+            <!-- Address Card -->
+            <div class="info-card address">
+                <h3>Address</h3>
+                <div class="icon">
+                    <img src="Images/address.png" alt="Map icon">
+                </div>
+                <p>No 123, Galle road<br>colombo 14</p>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="info-card phone">
+                <h3>Phone Number</h3>
+                <div class="icon">
+                  <img src="Images/phone.png" alt="Phone icon">
+                </div>
+                <p>076-4575678</p>
+            </div>
+
+            <!-- Email Card -->
+            <div class="info-card email">
+                <h3>Email</h3>
+                <div class="icon">
+                    <img src="Images/mail.png" alt="Email icon">
+                </div>
+                <p>example@gmail.com</p>
+            </div>
+        </div>
+
+        <!-- Main Heading -->
+        <h1 class="main-heading">CONTACT US</h1>
+
+        <!-- Description -->
+        <div class="description">
+            We're here to help! Reach out to us with any questions or concerns. Whether you have a query about our products, an order or just want to say hello, we'd love to hear from you.
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Send us a message</h2>
+            <form id="contactForm">
+                <div class="form-group email-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="contact.js"></script>
+</body>
+</html>
