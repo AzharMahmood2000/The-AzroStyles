@@ -56,7 +56,7 @@ body {
     position: absolute;
     font-family: 'Lugrasimo', cursive;
     font-style: normal;
-    font-size: 32px;
+    font-size: clamp(1.25rem, 2vw, 2rem);
     color: black;
     text-align: center;
     top: 103px;
@@ -99,7 +99,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 20px;
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
     color: black;
     top: 12px;
     left: 52px;
@@ -111,7 +111,7 @@ body {
     position: absolute;
     font-family: 'Belgrano', serif;
     font-style: normal;
-    font-size: 96px;
+    font-size: clamp(3rem, 6vw, 6rem);
     color: black;
     top: 150px;
     left: 869px;
@@ -200,12 +200,12 @@ body {
     .brand-name {
         left: 50%;
         margin-left: 0;
-        font-size: 24px;
+        font-size: clamp(1rem, 1.5vw, 1.5rem);
         top: 420px;
     }
     
     .about-heading {
-        font-size: 48px;
+        font-size: clamp(1.5rem, 3vw, 3rem);
         left: 50%;
         transform: translateX(-50%);
         top: 480px;

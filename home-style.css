@@ -28,7 +28,7 @@ body {
 .home-container {
     position: relative;
     width: 1280px;
-    min-height: 3998px;
+    min-height: 3500px;
     background: white;
     margin: 0 auto;
 }
@@ -55,7 +55,7 @@ body {
     transform: translateX(-50%);
     top: 68px;
     font-family: 'Lugrasimo', cursive;
-    font-size: 32px;
+    font-size: clamp(1.25rem, 2vw, 2rem);
     font-weight: 400;
     text-align: center;
     white-space: nowrap;
@@ -68,7 +68,7 @@ body {
     margin-left: -422px;
     top: 75px;
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
     font-weight: 400;
     text-align: center;
     white-space: nowrap;
@@ -124,7 +124,7 @@ body {
 
 .hero-title {
     font-family: 'Ribeye', cursive;
-    font-size: 64px;
+    font-size: clamp(2rem, 4vw, 4rem);
     font-weight: 400;
     color: #fbf3f3;
     text-align: center;
@@ -148,7 +148,7 @@ body {
     border: none;
     border-radius: 12px;
     font-family: 'Poppins', sans-serif;
-    font-size: 32px;
+    font-size: clamp(1.25rem, 2vw, 2rem);
     font-weight: 400;
     color: #1e1c1c;
     cursor: pointer;
@@ -172,7 +172,7 @@ body {
     transform: translateX(-50%);
     top: 0;
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
     font-weight: 400;
     text-align: center;
     white-space: nowrap;
@@ -244,7 +244,7 @@ body {
 /* NAME */
 .product-name {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
     font-weight: 800;
     text-align: center;
 }
@@ -259,12 +259,12 @@ body {
 
 .price-rating {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
     font-weight: 400;
 }
 
 .star {
-    font-size: 22px;
+    font-size: clamp(1rem, 1.375vw, 1.375rem);
 }
 /* See All Button */
 .see-all-button {
@@ -284,7 +284,7 @@ body {
     border: 2px solid #121212;
     border-radius: 3px;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: clamp(0.75rem, 1vw, 1rem);
     font-weight: 500;
     color: #121212;
     cursor: pointer;
@@ -323,7 +323,7 @@ body {
     left: 451px;
     top: 0;
     font-family: 'Lato', sans-serif;
-    font-size: 32px;
+    font-size: clamp(1.25rem, 2vw, 2rem);
     font-weight: 700;
     color: black;
     white-space: nowrap;
@@ -357,7 +357,7 @@ body {
 
 .lookbook-name {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
     font-weight: 800;
     margin-bottom: 8px;
 }
@@ -373,7 +373,7 @@ body {
 
 .philosophy-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-size: clamp(1.25rem, 2vw, 2rem);
     font-weight: 500;
     color: black;
     margin-bottom: 10px;
@@ -381,7 +381,7 @@ body {
 
 .philosophy-quote {
     font-family: 'Roboto', sans-serif;
-    font-size: 48px;
+    font-size: clamp(1.5rem, 3vw, 3rem);
     font-weight: 800;
     color: black;
     line-height: 1.3;
@@ -413,7 +413,7 @@ body {
 
 .footer-section h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 25px;
@@ -430,7 +430,7 @@ body {
 
 .footer-section ul li a {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
     font-weight: 500;
     color: #fbf2f2;
     text-decoration: none;
@@ -461,7 +461,7 @@ body {
 
 .newsletter-text {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: clamp(0.875rem, 1.125vw, 1.125rem);
     font-weight: 500;
     color: #fbf2f2;
     margin-bottom: 20px;
@@ -479,7 +479,7 @@ body {
     border: none;
     padding: 0 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: clamp(0.75rem, 1vw, 1rem);
     color: #333;
 }
 
@@ -489,7 +489,7 @@ body {
     background: #d9d9d9;
     border: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: clamp(0.875rem, 1.125vw, 1.125rem);
     font-weight: 800;
     color: black;
     cursor: pointer;

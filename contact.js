@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // HOME BUTTON - Navigate to home page
+    const homeButton = document.getElementById('homeButton');
+    if (homeButton) {
+        homeButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = 'home.html';
+        });
+    }
+
     // Select the form components
     const contactForm = document.querySelector('.send-message-form'); // Check your form class name
     const submitBtn = document.querySelector('button[type="submit"]'); // Or the button with "Submit" text

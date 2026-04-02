@@ -2,11 +2,11 @@
 // 1. BACK TO HOME BUTTON
 document.addEventListener("DOMContentLoaded", function () {
 
-    const backBtn = document.getElementById("backBtn");
+    const backButton = document.getElementById("backButton");
 
-    if (backBtn) {
-        backBtn.addEventListener("click", function () {
-            window.location.href = "home.html"; // change if needed
+    if (backButton) {
+        backButton.addEventListener("click", function () {
+            window.location.href = "home.html";
         });
     }
 

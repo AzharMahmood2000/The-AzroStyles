@@ -31,7 +31,7 @@ body {
 
 .main-title {
     font-family: 'Lugrasimo', cursive;
-    font-size: 48px;
+    font-size: clamp(1.5rem, 3vw, 3rem);
     font-weight: 400;
     color: #000;
     margin-bottom: 38px; /* Requirement: heading to create account gap */
@@ -40,14 +40,14 @@ body {
 
 .sub-title {
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
     font-weight: 400;
     margin-bottom: 0%;
 }
 
 .description {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: clamp(0.75rem, 1vw, 1rem);
     font-weight: 400;
     color: #666;
     margin-bottom: 34px; /* Requirement: next gap is 34 */
@@ -68,7 +68,7 @@ body {
 
 .form-group label {
     font-family: 'Inter', sans-serif; /* Substituted for Inter BT */
-    font-size: 16px;
+    font-size: clamp(0.75rem, 1vw, 1rem);
     font-weight: 500;
     margin-bottom: 8px;
     color: #333;
@@ -82,7 +82,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 12px;
     background-color: #f2f2f2;
-    font-size: 16px;
+    font-size: clamp(0.75rem, 1vw, 1rem);
 }
 
 .password-group {
@@ -98,7 +98,7 @@ body {
     border: none;
     border-radius: 12px;
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
     font-weight: 700; /* Requirement: signup btn font bold */
     cursor: pointer;
     margin-bottom: 37px; /* Requirement: signup to social btn gap is 37 */
@@ -128,7 +128,7 @@ body {
     justify-content: center;
     gap: 10px;
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: clamp(0.625rem, 0.875vw, 0.875rem);
     cursor: pointer;
     margin-bottom: 23px;
 }
@@ -140,7 +140,7 @@ body {
 
 .footer-text {
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: clamp(0.875rem, 1.125vw, 1.125rem);
     color: #333;
     text-align: center;
 }
