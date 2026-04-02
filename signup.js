@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alert("Account Created Successfully!");
         
         // Login pakkathirku selvadhatku
-        window.location.href = "login.html"; 
+        window.location.href = "index.html"; 
     };
 
     // Event Listener

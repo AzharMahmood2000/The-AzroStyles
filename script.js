@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const loginForm = document.querySelector('button.login-btn'); 
-    const usernameInput = document.querySelector('input[type="text"]');
-    const passwordInput = document.querySelector('input[type="password"]');
+    const loginForm = document.querySelector('#loginForm');
+    const usernameInput = document.querySelector('#username');
+    const passwordInput = document.querySelector('#password');
     const rememberMe = document.querySelector('input[type="checkbox"]');
+    const loginBtn = document.querySelector('.login-btn');
 
     // Login Button Click Event
     const handleLogin = (e) => {
@@ -33,9 +34,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Trigger on button click
-    const loginBtn = document.querySelector('.login-container button'); // Update selector based on your HTML
-    if(loginBtn) {
+    // Trigger on form submission
+    if (loginForm) {
+        loginForm.addEventListener('submit', handleLogin);
+    }
+    
+    // Also trigger on button click as backup
+    if (loginBtn) {
         loginBtn.addEventListener('click', handleLogin);
     }
 });
